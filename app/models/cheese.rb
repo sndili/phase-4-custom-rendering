@@ -1,7 +1,7 @@
 class Cheese < ApplicationRecord
   
   def summary
-    "#{name}: $#{price}"
+    "#{self.name}: $#{price}"
   end
 
 end
